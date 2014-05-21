@@ -1,0 +1,30 @@
+{
+  "name": "findfiles",
+  "version": "0.1.1",
+  "description": "Simple file finder with regexp filters",
+  "keywords": [
+    "find",
+    "directory",
+    "directories",
+    "file",
+    "files"
+  ],
+  "author": {
+    "name": "Tommy Lacke",
+    "email": "tommy.lacke@gmail.com"
+  },
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "findFiles.findFiles('C:\\', null, function(path, err, dirs, files) {consoole.log(dirs);console.log(files);};"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlacke/CoreDump/node/findfiles.js.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "readmeFilename": "README.md",
+  "license": "GPL2"
+}
