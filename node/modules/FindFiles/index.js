@@ -14,7 +14,7 @@ var fs = require("fs");
  *		console.log(files);
  *	});
  */
-var findFiles = function(path, filters, onComplete) {
+function findFiles(path, filters, onComplete) {
 	var dirs = [];
 	var files = [];
 	
@@ -77,3 +77,5 @@ var findFiles = function(path, filters, onComplete) {
 		});
 	});
 };
+
+module.exports.findFiles = findFiles;
